@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ghkDF"
+		},
+		"AzureDataLakeStorage_csv_sink_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase_azuresqldb_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_csv_sink_properties_typeProperties_url": {
+			"value": "https://ghklearnsadatalake.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase_azuresqldb_properties_typeProperties_server": {
+			"value": "ghklearndbserver.database.windows.net"
+		},
+		"AzureSqlDatabase_azuresqldb_properties_typeProperties_database": {
+			"value": "ghklearnsqldb"
+		},
+		"AzureSqlDatabase_azuresqldb_properties_typeProperties_userName": {
+			"value": "ghksqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
