@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data from azuresqldb",
+				"name": "Copydata from azuresqldb",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {

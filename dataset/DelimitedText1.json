@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "custaddr.csv",
 				"fileSystem": "data"
 			},
 			"columnDelimiter": ",",
